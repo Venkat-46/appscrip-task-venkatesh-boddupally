@@ -35,10 +35,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-
       <hr />
-
-      {/* ---------- Middle Section ---------- */}
       <div className="footer-links">
         <div className="footer-column">
           <h4>metta muse</h4>
