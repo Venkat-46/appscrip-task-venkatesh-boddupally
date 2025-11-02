@@ -1,0 +1,23 @@
+.filters-component-container{
+    display: none;
+}
+.filter-heading-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filte-all-text{
+    margin:0px;
+    padding: 0px;
+}
+.filter-unselect-text{
+    color: #BFC8CD;
+    text-decoration: underline;
+}
+@media screen and (min-width:768px){
+    .filters-component-container{
+        display: block;
+        width: 22%;
+        flex-shrink: 0;
+    }
+}

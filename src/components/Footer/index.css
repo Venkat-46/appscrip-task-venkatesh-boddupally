@@ -1,0 +1,129 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* ---------- Top Section ---------- */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.subscribe-section h4,
+.contact-section h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p,
+.contact-section p {
+  font-size: 14px;
+  color: #bfbfbf;
+  margin-bottom: 8px;
+}
+
+.subscribe-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.subscribe-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #888;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+.subscribe-input button {
+  padding: 10px 16px;
+  background-color: #333;
+  color: #888;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- Divider ---------- */
+hr {
+  border: none;
+  height: 1px;
+  background: #444;
+  margin: 30px 0;
+}
+
+/* ---------- Middle Section ---------- */
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-column ul li {
+  font-size: 14px;
+  color: #bfbfbf;
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.payment-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 30px;
+}
+
+/* ---------- Footer Copy ---------- */
+.footer-copy {
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+/* ---------- Responsive ---------- */
+@media screen and (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .subscribe-section {
+    width: 50%;
+  }
+
+  .contact-section {
+    width: 40%;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-column {
+    width: 30%;
+  }
+
+  .footer-copy {
+    margin-top: 40px;
+  }
+}
